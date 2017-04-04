@@ -31,7 +31,7 @@ var pusher = new Pusher("PUSHER_APP_ID", "PUSHER_APP_KEY", "PUSHER_APP_SECRET");
 Also, remember to fill in the your secret key in your `pusherasp\Views\Home\Index.cshtml` file by replacing this line:
 
 ```
-var pusher = new Pusher('PUSHER_APP_SECRET');
+var pusher = new Pusher('PUSHER_APP_KEY');
 ```
 
 And finally, start the application by clicking the debug button on your visual studio.
